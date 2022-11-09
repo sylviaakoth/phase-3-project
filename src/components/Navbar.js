@@ -6,18 +6,20 @@ const navbar = () => {
     <div className="nav">
       <span className="title">DOCTORS' APPOINTMENT APP</span>
 
-         <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/contact us">Contact us</Link>
-        </li>
-        <li>
-          <Link to="/support">Support</Link>
-        </li>
+         <ul className="nav-links">
+           <li>
+            <Link className="link" to="/">Home</Link>
+                   </li>
+                   <li>
+            <Link className="link" to="/about">About</Link>
+                   </li>
+                   <li>
+            <Link className="link" to="/contact us">Contact us</Link>
+                   </li>
+                   <li>
+            <Link className="link" to="/support">Support</Link>
+                   </li>
+         </ul>
       </div>
      );
 };

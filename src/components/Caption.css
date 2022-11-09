@@ -3,14 +3,13 @@
 }
 .caps {
   padding: 20px;
-  background-color: rgba(101, 44, 155, 0.884);
   display: grid;
   position: relative;
   place-items: center;
-  width: 50%;
-  padding-top: 50px;
-  
+  width: 100%;
 }
 p{
-    text-decoration-color: rgb(61, 42, 165);
+  padding: 50px;
+  text-decoration-color: rgb(61, 42, 165);
+  background-color: rgba(101, 44, 155, 0.884);
 }
