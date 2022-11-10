@@ -6,8 +6,17 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Support from "./pages/support";
 import Caption from "./components/Caption";
+import Footer from "./components/Footer";
 function App() {
   return (
+      
+
+
+
+
+
+
+
     <div>
     <BrowserRouter>
       
@@ -21,13 +30,12 @@ function App() {
         
       </Routes>
        
-
+      
       
     </BrowserRouter>
-  
-  <Caption/>
-
-  </div>
+    <Caption/>
+    <Footer/>
+    </div>
     
   );
 }
