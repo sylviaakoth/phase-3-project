@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Support from "./pages/support";
 import Caption from "./components/Caption";
+import Inputs from "./components/Inputs"
 function App() {
   return (
     <div>
@@ -26,6 +27,7 @@ function App() {
     </BrowserRouter>
   
   <Caption/>
+  <Inputs />
 
   </div>
     
