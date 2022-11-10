@@ -20,7 +20,7 @@ function Inputs() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(inputs);
+    alert(`Hello ${inputs.username}`);
   }
 
   return (
@@ -38,9 +38,9 @@ function Inputs() {
       />
      </label>
      <Select options={facility} value={inputs.facility || ""} 
-        onChange={handleChange}/>
+        onChange={handleChange} styles= {{width: '10%'}}/>
    
-        <button type="button" class="btn btn-secondary" value="Book Appointment"/>
+        <button type="submit" class="btn btn-secondary" value="Book Appointment"/>
         <button type="button" class="btn btn-danger" value="Cancel Booking"/>
     </form>
     </div>
