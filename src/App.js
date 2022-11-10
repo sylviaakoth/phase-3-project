@@ -4,18 +4,11 @@ import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
-import Support from "./pages/support";
+import Support from "./pages/Support";
 import Caption from "./components/Caption";
 import Footer from "./components/Footer";
 function App() {
   return (
-      
-
-
-
-
-
-
 
     <div>
     <BrowserRouter>
