@@ -1,16 +1,42 @@
 .nav {
  display: flex;
- align-items: center;
- justify-content: space-between;
- padding: 20px;
  background-color: teal;
+ /* align-items: center;
+ justify-content: space-between;
+ margin: 1rem 0;
  color: #fff;
  font-size: 20px;
 text-decoration: none;
  list-style: none;
- width: 99%;
+ width: 100%; */
  
 }
+
+
+
+.title {
+    margin: 1rem 0;
+    width: 50%;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.nav-links li {
+    margin: 1rem .5rem;
+    list-style-type: none;
+}
+
+.link {
+    margin: 1rem .5rem;
+    color: white;
+    text-decoration: none;
+}
+
 .nav.title{
     text-decoration: none;
 }
