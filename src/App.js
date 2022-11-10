@@ -6,9 +6,20 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Support from "./pages/support";
 import Caption from "./components/Caption";
+
+import Footer from "./components/Footer";
 import Inputs from "./components/Inputs"
+
 function App() {
   return (
+      
+
+
+
+
+
+
+
     <div>
     <BrowserRouter>
       
@@ -22,12 +33,16 @@ function App() {
         
       </Routes>
        
-
+      
       
     </BrowserRouter>
+
+    
+
   
   <Caption/>
   <Inputs />
+  <Footer/>
 
   </div>
     
