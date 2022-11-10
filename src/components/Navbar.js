@@ -7,16 +7,16 @@ const navbar = () => {
       <h3 className="doctor">DOCTORS' APPOINTMENT APP</h3>
       <ul className="nav-links">
         <Link to="/" className="home">
-          <li> Home </li>
+          <li> HOME </li>
         </Link>
         <Link to="/Contact" className="contact">
-          <li> Contact </li>
+          <li> CONTACT US</li>
         </Link>
         <Link to="/Appointments" className="appointments">
-          <li> Appointments </li>
+          <li> APPOINTMENTS </li>
         </Link>
         <Link to="/Support" className="support">
-          <li> Support </li>
+          <li> SUPPORT </li>
         </Link>
       </ul>
     </nav>

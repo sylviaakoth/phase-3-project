@@ -14,6 +14,7 @@ function Footer () {
           </section>
           <section className="footer-info__returns">
             Returns Policy
+            <br/>
             <br />
             Delivery
           </section>        
@@ -25,6 +26,7 @@ function Footer () {
           <section className="footer-info__terms">
             Terms and Conditions
             <br />
+            <br />
             Copyright
           </section>
         </section>
@@ -34,6 +36,7 @@ function Footer () {
           </section>
           <section className="footer-info__contact">
              My Health Awareness
+            <br />
             <br />
             Contact Us
           </section>
