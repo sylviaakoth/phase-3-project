@@ -3,15 +3,13 @@
 }
 .caps {
   padding: 20px;
-  background-color: rgba(101, 44, 155, 0.884);
+  background-color: #33475B;;
   display: grid;
   position: relative;
   place-items: center;
   width: 60%;
   height: 40%;
   padding-top: 50px;
-  
-}
-p{
-    text-decoration-color: rgb(61, 42, 165);
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
 }

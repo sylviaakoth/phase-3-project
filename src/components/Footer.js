@@ -6,10 +6,7 @@ function Footer () {
 
   return (
     <section className="footer">
-      <hr className="footer-seperator" />
-      <section className="footer-social-media">
-        <a href="/" target="_blank" rel="noopener noreferrer">Contacts</a>
-      </section>
+      
       <section className="footer-info">
         <section className="footer-info-left">
           <section className="footer-info__name">

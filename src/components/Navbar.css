@@ -1,16 +1,42 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
 .nav {
  display: flex;
  align-items: center;
  justify-content: space-between;
- padding: 20px;
  background-color: teal;
- color: #fff;
  font-size: 20px;
 text-decoration: none;
- list-style: none;
- width: 99%;
+ height: 100px;
+ color: white;
  
 }
-.nav.title{
+.doctor{
+    font-size: 30px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    
+}
+
+.home,
+.appointments,
+.support,
+.contact{
     text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+{
+
 }

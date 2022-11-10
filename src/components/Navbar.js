@@ -3,22 +3,23 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 const navbar = () => {
   return (
-    <div className="nav">
-      <span className="title">DOCTORS' APPOINTMENT APP</span>
-
-         <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/contact us">Contact us</Link>
-        </li>
-        <li>
-          <Link to="/support">Support</Link>
-        </li>
-      </div>
-     );
+    <nav className="nav">
+      <h3 className="doctor">DOCTORS' APPOINTMENT APP</h3>
+      <ul className="nav-links">
+        <Link to="/" className="home">
+          <li> Home </li>
+        </Link>
+        <Link to="/Contact" className="contact">
+          <li> Contact </li>
+        </Link>
+        <Link to="/Appointments" className="appointments">
+          <li> Appointments </li>
+        </Link>
+        <Link to="/Support" className="support">
+          <li> Support </li>
+        </Link>
+      </ul>
+    </nav>
+  );
 };
 export default navbar;

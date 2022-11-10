@@ -10,7 +10,10 @@
   bottom: 0;
   width: 100%;
   height: 100px;
-  background-color: blueviolet;
+  background-color: #33475B;
+  padding-top: 20px;
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
 
 }
 
