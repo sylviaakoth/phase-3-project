@@ -1,0 +1,39 @@
+.userForm{
+background-color: #33475B; 
+display: flex; 
+justify-content: flex-start;
+opacity: 0.9;
+flex-flow: row wrap;
+align-items: center;
+margin-left: 30px;
+margin-top: 10px;
+width: 50%;
+/* padding-top: 10%; */
+}
+
+.userForm label {
+  margin: 5px 10px 5px 0;
+  padding: 100px;
+}
+.userForm legend{
+  padding-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.userForm input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.userForm button {
+  padding: 20px 50px;
+  border: 1px solid #ddd;
+  color: white;
+  border-radius: 10px;
+  margin-left: 40px;
+}
