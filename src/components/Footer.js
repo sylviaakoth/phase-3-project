@@ -5,7 +5,7 @@ import './Footer.css';
 function Footer () {
 
   return (
-    <section className="footer">
+    <div className="footer">
       
       <section className="footer-info">
         <section className="footer-info-left">
@@ -40,7 +40,7 @@ function Footer () {
         </section>
       </section>
       
-    </section>
+    </div>
   )
 
 }
