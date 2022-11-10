@@ -22,6 +22,7 @@ function App() {
     </Router>
    <Caption/>
    <Footer/>
+   
     </div>
   );
 }

@@ -1,0 +1,11 @@
+.support{
+  background-color: #33475b;
+  display: grid;
+  position: relative;
+  place-items: center;
+  width: 60%;
+  height: 40%;
+  padding-top: 50px;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+}
