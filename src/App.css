@@ -1,7 +1,13 @@
+*{
+  padding: 0px;
+margin: 0px;
+}
+
 body { background-image: url("../images/towfiqu-barbhuiya-jOeh3Lv88xA-unsplash.jpg"); 
   background-size: 100vw auto;
 background-size: 100%;
 background-size: cover;
 background-repeat: no-repeat;
+
 
 }
