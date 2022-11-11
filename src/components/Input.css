@@ -1,15 +1,16 @@
-.userForm{
+/* .userForm{
 background-color: #33475B; 
 display: flex; 
 justify-content: flex-start;
 opacity: 0.9;
 flex-flow: row wrap;
 align-items: center;
-margin-left: 30px;
+margin-left: 10px;
 margin-top: 10px;
 width: 50%;
+height: 50%;
 /* padding-top: 10%; */
-}
+/* }
 
 .userForm label {
   margin: 5px 10px 5px 0;
@@ -36,4 +37,49 @@ width: 50%;
   color: white;
   border-radius: 10px;
   margin-left: 40px;
+}  */
+
+.Inputs {
+ 
+  justify-content: space-evenly;
+  margin-top: 5rem;
+  background-color: #33475B;
+  display: flex;
+  opacity: 0.9;
+  flex-flow: row wrap;
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 80%;
+  height: auto;
 }
+.input {
+  margin-bottom: 5rem;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+button {
+  padding: 1rem;
+  font-size: 1.2em;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-left: 40px;
+}
+button:hover {
+  background-color: #C5C5C5;
+}
+.message {
+  font-size: 1.2em;
+  text-align: center;
+  color: #36A936;
+}
+
+
+
+
+
+
