@@ -7,7 +7,7 @@ function caption() {
      Your Doctor,Anytime ,Anywhere!<br/>
      The most trusted health care partner.<br/>
      We ensure faster, credible and safe <br/>
-     booking appointments!
+     booking appointments!!
      <br/>
      Book an appointment  with us
      </p>
