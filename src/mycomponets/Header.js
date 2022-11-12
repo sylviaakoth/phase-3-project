@@ -8,10 +8,13 @@ function Header() {
                 <NavLink to='/'>Home</NavLink>
             </li>
             <li>
-                <NavLink to='/appointments'>Appointment</NavLink>
+                <NavLink to='/appointments'>Create Appointment</NavLink>
             </li>
             <li>
-                <NavLink to='/contact'>Contact</NavLink>
+                <NavLink to='/allappointments'>All Appointments</NavLink>
+            </li>
+            <li>
+                <NavLink to='/contacts'>Contact Us</NavLink>
             </li>
         </ul>
     </div>

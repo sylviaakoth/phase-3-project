@@ -3,6 +3,7 @@ import Inputs from '../components/Inputs'
 import Footer from '../components/Footer'
 
 function Appointment() {
+ 
   return (
     <>
         <Inputs/>

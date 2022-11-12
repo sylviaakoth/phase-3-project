@@ -4,6 +4,7 @@ import Home from '../mycomponets/Home'
 import Contact from '../mycomponets/Contact'
 import Header from '../mycomponets/Header'
 import Appointment from '../mycomponets/Appointment'
+import Patients from '../mycomponets/Patients'
 
 function Pages() {
   return (
@@ -13,7 +14,8 @@ function Pages() {
             <Routes>
                 <Route exact path="/" element={<Home/>}/>
                 <Route exact path="/appointments" element={<Appointment/>}/>
-                <Route exact path="/contact" element={<Contact/>}/>
+                <Route exact path="/allappointments" element={<Patients/>}/>
+                <Route exact path="/contacts" element={<Contact/>}/>
             </Routes>
         </BrowserRouter>
     </>
