@@ -7,7 +7,7 @@ import Contact from "./pages/Contact";
 import Support from "./pages/Support";
 import Inputs from "./components/Inputs";
 import Footer from "./components/Footer";
-import Caption from "./components/Caption";
+
 
 function App() {
   
@@ -25,6 +25,7 @@ function App() {
           <Route exact path="/support" element={<Support />} />
         </Routes>
       </BrowserRouter>
+     
       <Footer />
     </div>
   );
