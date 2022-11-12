@@ -9,8 +9,7 @@ function Inputs() {
     lastName: "",
     gender: "",
     age: null
-    
-  })
+    })
 
 
   function handleFirstName(e){
@@ -83,6 +82,7 @@ function Inputs() {
   // };
   return (
     <div className="Inputs">
+      <div className='form-title'><p>Please enter details below to book appointment</p></div>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
