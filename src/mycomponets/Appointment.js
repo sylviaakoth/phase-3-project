@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 function Appointment() {
   return (
     <>
-        <Inputs />
+        <Inputs/>
         <Footer />
     </>
   )
