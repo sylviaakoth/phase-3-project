@@ -26,7 +26,7 @@ function Caption() {
         Book an appointment  with us for quality service.
         <br /> <br />
       
-        <button onClick={navigateToAppointments}>Book Appointment Today</button>
+        <button onClick={navigateToAppointments} id='appointment-button'>Book Appointment Today</button>
 
         <Routes>
           <Route path="/appointments" element={<Appointment />} />

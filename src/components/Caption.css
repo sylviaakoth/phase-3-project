@@ -12,11 +12,24 @@
   color: #fff;
 }
 #caption-image{
-  height: 336px;
+  height: 384px;
 }
 
 p{
   padding: 50px;
   text-decoration-color: white;
   background-color: #33475B
+}
+#appointment-button{
+  border-radius: 4px;
+  background-color: #C0C0C0;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
 }

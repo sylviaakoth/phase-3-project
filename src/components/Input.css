@@ -21,7 +21,7 @@
   border-radius: 50%;
 }
 .clear_fields {
-  box-shadow:inset 0px 1px 0px 0px #fce2c1;
+  	box-shadow:inset 0px 1px 0px 0px #fce2c1;
 	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
 	background-color:#ffc477;
 	border-radius:10%;
@@ -35,40 +35,21 @@
 	padding:8px 18px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #cc9f52;
-  margin :2px;
-  margin-left: 150px;
+	margin :2px;
+	margin-left: 150px;
 }
-
-button  {
-  box-shadow:inset 0px 1px 0px 0px #fce2c1;
-	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
-	background-color:#ffc477;
-	border-radius:10%;
-	border:2px solid #eeb44f;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:16px;
-	font-weight:bold;
-	padding:8px 18px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #cc9f52;
-  margin-left: 50px;
-}
-
-button:hover {
-  background:linear-gradient(to bottom, #44249e 5%, #264bc2 100%);
-	background-color:#3b2ace;
-}
-.button:active {
-	position:relative;
-	top:1px;
-}
-
-button1:hover {
-  background:linear-gradient(to bottom, #44249e 5%, #264bc2 100%);
-	background-color:#3b2ace;
+#appointment-button{
+  border-radius: 4px;
+  background-color: #C0C0C0;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
 }
   
 
