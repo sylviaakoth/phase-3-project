@@ -9,6 +9,7 @@
   margin-top: 20px;
   width: 50%;
   height: auto;
+  padding: 50px 0px;
 }
 .input {
   margin-bottom: 5rem;
@@ -19,7 +20,7 @@
   border: 1px solid #ddd;
   border-radius: 50%;
 }
-button1 {
+.clear_fields {
   box-shadow:inset 0px 1px 0px 0px #fce2c1;
 	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
 	background-color:#ffc477;
