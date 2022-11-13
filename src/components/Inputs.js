@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from "react";
-import Select from "react-select"
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Input.css";
 function Inputs() {
 
@@ -9,8 +9,7 @@ function Inputs() {
     lastName: "",
     gender: "",
     age: null
-    
-  })
+    })
 
 
   function handleFirstName(e){
@@ -82,40 +81,49 @@ function Inputs() {
   //   }
   // };
   return (
-    <div className="Inputs">
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          value={userDetails.firstName}
-          placeholder="First Name"
-          onChange={handleFirstName}
-        /><br></br><br></br>
-        <input
-          type="text"
-          value={userDetails.lastName}
-          placeholder="Last Name"
-          onChange={handleLastName}
-        /><br></br><br></br>
-        <input
-          type="number"
-          value={userDetails.age}
-          placeholder="Age"
-          onChange={handleAge}
-        /> <br></br><br></br>
+    <div className="form-body">
+      <div className='row'>
+        <div className='form-holder'>
+          <div className='form-content'>
+            <div className='form-items'><h3><b>Please enter details below to book appointment</b></h3>
+              <form onSubmit={handleSubmit}>
+                <input
+                  type="text"
+                  value={userDetails.firstName}
+                  placeholder="First Name"
+                  onChange={handleFirstName}
+                /><br></br><br></br>
+                <input
+                  type="text"
+                  value={userDetails.lastName}
+                  placeholder="Last Name"
+                  onChange={handleLastName}
+                /><br></br><br></br>
+                <input
+                  type="number"
+                  min='0'
+                  max='200'
+                  value={userDetails.age}
+                  placeholder="Age"
+                  onChange={handleAge}
+                /> <br></br><br></br>
 
-        <select value={userDetails.gender} onChange={handleGender}>
-          <option>Gender</option>
-          <option>Male</option>
-          <option>Female</option>
-        </select>
+                <select value={userDetails.gender} onChange={handleGender}>
+                  <option>Gender</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                </select>
+                <br></br><br></br>
 
-        {/* <select options={genderOptions} onChange={(values) => this.setGender(values)} /><br></br> */}
-        {/* <Select options={facilityOptions} onChange={(values) => this.setValues(values)} /><br></br> */}
-        <button type="submit">Submit </button> 
-        <button className='clear_fields' onClick={handleClearing}> Clear fields</button>
-        {/* <div className="message">{message ? <p>{message}</p> : null}</div> */}
-        {/* <div className="message">{message}</div> */}
-      </form>
+                <button className='btn btn-success' type="submit">Confirm Appointment </button> 
+                <button className='btn btn-danger' onClick={handleClearing}> Clear Fields</button>
+                {/* <div className="message">{message ? <p>{message}</p> : null}</div> */}
+                {/* <div className="message">{message}</div> */}
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
