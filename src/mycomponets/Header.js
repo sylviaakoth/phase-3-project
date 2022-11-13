@@ -3,6 +3,9 @@ import { NavLink } from 'react-router-dom'
 function Header() {
   return (
     <div className='nav'>
+        <NavLink to="/" className="site-title">
+            DOCTORS' APPOINTMENT APP.
+      </NavLink>
         <ul>
             <li>
                 <NavLink to='/'>Home</NavLink>
