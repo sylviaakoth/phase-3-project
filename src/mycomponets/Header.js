@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className='nav'>
     <NavLink to="/" className="site-title">
-        DOCTORS' APPOINTMENT APP
+        DOCTORS' APPOINTMENT APP.
       </NavLink>
         <ul>
             <li>
