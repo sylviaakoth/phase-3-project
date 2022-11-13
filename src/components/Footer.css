@@ -9,10 +9,9 @@
    background-color: #33475B;
    color: white;
    text-align: center;
+   
+   
 }
-
-
-
 
 .footer-social-media {
   display: flex;
@@ -35,7 +34,7 @@
 .footer-info-left,
 .footer-info-center,
 .footer-info-right {
-  font-size: x-small;
+  font-size: 13px;
   display: flex;
   flex-direction: column;
   margin-bottom: 0px;
@@ -80,3 +79,4 @@
   font-size: large;
   margin: 0px 20px;
 }
+

@@ -19,6 +19,7 @@
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 50%;
+  
 }
 .clear_fields {
   box-shadow:inset 0px 1px 0px 0px #fce2c1;
@@ -55,6 +56,7 @@ button  {
 	text-decoration:none;
 	text-shadow:0px 1px 0px #cc9f52;
   margin-left: 50px;
+  margin-top: 100px;
 }
 
 button:hover {

@@ -1,17 +1,19 @@
-import React from 'react'
-import Caption from '../components/Caption'
-import Footer from '../components/Footer'
-import Inputs from '../components/Inputs'
+import React from "react";
+import Homme from "../components/Homme";
+import Caption from "../components/Caption";
+import Footer from "../components/Footer";
+import Inputs from "../components/Inputs";
+import "./home.css";
 function Home() {
   return (
     <>
-       
-      <Caption/>
-
+    
+    <Homme/>
       
-       <Footer/>
+      <Caption/>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
