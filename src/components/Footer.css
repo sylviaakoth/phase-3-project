@@ -11,6 +11,7 @@
  text-align: center;
  margin-top: auto;
 }
+
 .footer-social-media {
 display: flex;
 flex-direction: row;
@@ -26,7 +27,14 @@ height: 25px;
   display: flex;
   justify-content: center;
 }
+<<<<<<< HEAD
 .footer-info-left,.footer-info-center,.footer-info-right {
+=======
+
+.footer-info-left,
+.footer-info-center,
+.footer-info-right {
+>>>>>>> 6350bf3de03a2316108b7f7c9bce86b3ca61b373
   font-size: 13px;
   display: flex;
   flex-direction: column;
@@ -41,4 +49,32 @@ height: 25px;
 }
 .footer-info__email,.footer-info__terms {
   text-align: center;
+<<<<<<< HEAD
 }
+=======
+}
+
+.footer-info__number,
+.footer-info__contact {
+  text-align: end;
+}
+
+.footer-date {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-name {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-bottom__name {
+  text-transform: uppercase;
+  font-family: RobotoBold;
+  font-size: large;
+  margin: 0px 20px;
+}
+
+>>>>>>> 6350bf3de03a2316108b7f7c9bce86b3ca61b373

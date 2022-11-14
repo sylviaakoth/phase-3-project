@@ -1,5 +1,7 @@
 import React from "react";
+
 import "./Footer.css";
+
 function Footer() {
   return (
     <section className="footer">
@@ -15,8 +17,14 @@ function Footer() {
           <section className="footer-info__returns">
             <h6> Case studies</h6>
             Simplifying Data intergration in Healthcare.<br></br>
+<<<<<<< HEAD
           </section>
           </section>
+=======
+            
+          </section>
+        </section>
+>>>>>>> 6350bf3de03a2316108b7f7c9bce86b3ca61b373
         <section className="footer-info-center">
           <section className="footer-info__email">
             {" "}
@@ -29,6 +37,10 @@ function Footer() {
             <h6> Quick Links</h6>
             About<br></br>
             Gender<br></br>
+<<<<<<< HEAD
+=======
+           
+>>>>>>> 6350bf3de03a2316108b7f7c9bce86b3ca61b373
           </section>
         </section>
         <section className="footer-info__number">
@@ -43,4 +55,9 @@ function Footer() {
     </section>
   );
 }
+<<<<<<< HEAD
 export default Footer;
+=======
+
+export default Footer;
+>>>>>>> 6350bf3de03a2316108b7f7c9bce86b3ca61b373
