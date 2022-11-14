@@ -17,9 +17,10 @@ function Footer() {
           <section className="footer-info__returns">
             <h6> Case studies</h6>
             Simplifying Data intergration in Healthcare.<br></br>
-            
+
           </section>
-        </section>
+          </section>
+
         <section className="footer-info-center">
           <section className="footer-info__email">
             {" "}
@@ -32,7 +33,7 @@ function Footer() {
             <h6> Quick Links</h6>
             About<br></br>
             Gender<br></br>
-           
+
           </section>
         </section>
         <section className="footer-info__number">
@@ -49,3 +50,4 @@ function Footer() {
 }
 
 export default Footer;
+

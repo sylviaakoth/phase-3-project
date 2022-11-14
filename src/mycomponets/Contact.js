@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../components/Footer'
 import './contact.css'
 
+
 function Contact() {
   return (
     <>
@@ -24,5 +25,4 @@ function Contact() {
     </>
   )
 }
-
-export default Contact
+export default Contact;
