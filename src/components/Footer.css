@@ -27,14 +27,9 @@ height: 25px;
   display: flex;
   justify-content: center;
 }
-<<<<<<< HEAD
-.footer-info-left,.footer-info-center,.footer-info-right {
-=======
 
-.footer-info-left,
-.footer-info-center,
-.footer-info-right {
->>>>>>> 6350bf3de03a2316108b7f7c9bce86b3ca61b373
+.footer-info-left,.footer-info-center,.footer-info-right {
+
   font-size: 13px;
   display: flex;
   flex-direction: column;
@@ -49,10 +44,10 @@ height: 25px;
 }
 .footer-info__email,.footer-info__terms {
   text-align: center;
-<<<<<<< HEAD
+
 }
-=======
-}
+
+
 
 .footer-info__number,
 .footer-info__contact {
@@ -77,4 +72,4 @@ height: 25px;
   margin: 0px 20px;
 }
 
->>>>>>> 6350bf3de03a2316108b7f7c9bce86b3ca61b373
+

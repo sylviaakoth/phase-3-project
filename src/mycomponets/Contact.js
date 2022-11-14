@@ -19,10 +19,7 @@ function Contact() {
         Fax : 212-79-4302<br></br>
         Twitter :@ doctorsapp<br></br>
         You tube : @doctorsappointmentapp.com
-<<<<<<< HEAD
-=======
 
->>>>>>> 6350bf3de03a2316108b7f7c9bce86b3ca61b373
         </div>
         <Footer />
     </>
