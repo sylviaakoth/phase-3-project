@@ -1,49 +1,46 @@
-import React from 'react';
-
-import './Footer.css';
-
-function Footer () {
-
+import React from "react";
+import "./Footer.css";
+function Footer() {
   return (
     <section className="footer">
-      <section className="footer-social-media">
-      </section>
       <section className="footer-info">
         <section className="footer-info-left">
-          <section className="footer-info__name"><br/>
-               Developed by frontend developer
+          <section className="footer-info__name">
+            <h6> Location</h6>
+            Kenya Headquaters:<br></br>
+            1150 Nairobi , Fort Lee, <br></br>
+            NJ 070224888.<br></br>
+            LANGATE.
           </section>
           <section className="footer-info__returns">
-            Returns Policy
-            <br /><br />
-            Delivery
-          </section>        
-        </section>
+            <h6> Case studies</h6>
+            Simplifying Data intergration in Healthcare.<br></br>
+          </section>
+          </section>
         <section className="footer-info-center">
-          <section className="footer-info__email"> <br/>
-           Email: doctorappointment.info@gmail.com
+          <section className="footer-info__email">
+            {" "}
+            <br />
+            <h6> Our brands</h6>
+            Software modernization by Modologix,<br></br>
+            Cloud Solutions by imagis.
           </section>
           <section className="footer-info__terms">
-            Terms and Conditions
-            <br /><br />
-            Copyright
+            <h6> Quick Links</h6>
+            About<br></br>
+            Gender<br></br>
           </section>
         </section>
-        <section className="footer-info-right">
-          <section className="footer-info__number"><br />
-           Call: 0700308204
-          </section>
-          <section className="footer-info__contact">
-             My Health Awareness
-            <br /><br />
-            Contact Us
-          </section>
+        <section className="footer-info__number">
+          <br />
+          <h6> Resource Center</h6>
+          Doctor Appointment application<br></br>
+          News / Bulletins<br></br>
+          Downloads<br></br>
+          Careers
         </section>
       </section>
-      
     </section>
-  )
-
+  );
 }
-
 export default Footer;

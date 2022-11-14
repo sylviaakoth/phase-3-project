@@ -1,0 +1,46 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "firstName": "Dismas",
+      "lastName": "Ngoda",
+      "age": "50",
+      "gender": "Male"
+    },
+    {
+      "id": 3,
+      "firstName": "Julius",
+      "lastName": "Ndakala",
+      "age": "20",
+      "gender": "Male"
+    },
+    {
+      "firstName": "Dismas",
+      "lastName": "Muendo",
+      "gender": "Male",
+      "age": "12",
+      "id": 5
+    },
+    {
+      "firstName": "Beth",
+      "lastName": "Omari",
+      "gender": "Female",
+      "age": "20",
+      "id": 7
+    },
+    {
+      "firstName": "Sylvia",
+      "lastName": "Omollo",
+      "gender": "Female",
+      "age": "11",
+      "id": 8
+    },
+    {
+      "firstName": "Dan",
+      "lastName": "Muendo",
+      "gender": "Male",
+      "age": "12",
+      "id": 9
+    }
+  ]
+}

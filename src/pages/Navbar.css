@@ -30,10 +30,19 @@
   text-decoration: none;
 }
 .nav li:hover{
-  background-color: blueviolet;
-
+  /* background-color: #33475B; */
+  background-color: #33475B;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 5px, 6px, 4px, 5px;
 }
-
+.nav li{
+  color: white;
+}
+.site-title{
+  color: red;
+}
  
 
  
