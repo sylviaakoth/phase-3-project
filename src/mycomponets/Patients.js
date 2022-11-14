@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './patients.css'
+import './patients.css' 
 function Patients() {
     const [patients, setPatients] = useState([])
     let apiUrl = "http://localhost:9292/patients"

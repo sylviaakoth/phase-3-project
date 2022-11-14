@@ -47,9 +47,6 @@ function Inputs() {
       gender: ""
     })
   
-
-
-    
   }
      
 
